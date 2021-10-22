@@ -59109,7 +59109,7 @@ var pivotbridge, clock; // Caluclate rotation and translation of bridge
 //let position_z=+1322  //Nord
 //let position_x=-1458   //Ost
 
-var rotation_y = -0.883766129;
+var rotation_y = Math.PI - 2 * 0.68703019793236;
 var position_z = +1321.66; //Nord
 
 var position_x = -1458.41; //Ost

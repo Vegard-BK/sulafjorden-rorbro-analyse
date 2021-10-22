@@ -18,7 +18,7 @@ let pivotbridge,clock
 //let position_z=+1322  //Nord
 //let position_x=-1458   //Ost
 
-let rotation_y = -0.883766129;	
+let rotation_y = Math.PI -  2*0.68703019793236;	
 let position_z=+1321.66  //Nord
 let position_x=-1458.41   //Ost
 
