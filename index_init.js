@@ -230,7 +230,7 @@ function init() {
 		for ( let i = 0; i < animations.length; i ++ ) {
 		
 			if (i!=0) {	
-			animationFolder.add( panelSettings, states[i], 0.0, 1.0, 0.01 ).listen().onChange( function ( weight ) { 
+			animationFolder.add( panelSettings, states[i], 0.0, 100.0, 1.0 ).listen().onChange( function ( weight ) { 
 				setWeight( actions[states[i]], weight );	
 			
 			});

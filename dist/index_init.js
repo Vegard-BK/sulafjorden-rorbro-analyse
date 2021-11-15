@@ -59264,7 +59264,7 @@ function init() {
 
       var _loop = function _loop(_i2) {
         if (_i2 != 0) {
-          animationFolder.add(panelSettings, states[_i2], 0.0, 1.0, 0.01).listen().onChange(function (weight) {
+          animationFolder.add(panelSettings, states[_i2], 0.0, 100.0, 1.0).listen().onChange(function (weight) {
             setWeight(actions[states[_i2]], weight);
           });
         }
